@@ -59,11 +59,10 @@ All colors are variables at the top of the `<style>` block — `--accent` is the
 
 Search for `waikin1028@gmail.com`, `github.com/waikinli98`, or `linkedin.com` — each appears in
 the visible page and once in the JSON-LD block near the top (used by search engines).
-Google Scholar is still a placeholder — search for `scholar.google.com` when you have a profile URL.
 
 ## 8. Add your CV
 
-Save it as `assets/LiWaiKin_CV.pdf` — the hero's "Download CV" button already points there.
+Save it as `assets/KennethLi_CV.pdf` — the hero's "Download CV" button already points there.
 
 ---
 
