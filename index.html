@@ -279,10 +279,10 @@ figure.fig figcaption{font-size:.8rem;color:var(--ink-3);padding:10px 14px;borde
 .skill-col .lead{color:var(--ink-2);font-size:.88rem;margin-bottom:16px}
 .skill-list{list-style:none;margin:0;padding:0}
 .skill-list li{
-  padding:9px 0;border-top:1px solid var(--line);color:var(--ink-2);font-size:.92rem;
-  display:flex;gap:10px;align-items:baseline;
+  padding:9px 0 9px 17px;border-top:1px solid var(--line);color:var(--ink-2);font-size:.92rem;
+  position:relative;
 }
-.skill-list li::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent);flex:none;transform:translateY(-2px)}
+.skill-list li::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent);position:absolute;left:1px;top:17px}
 .skill-list strong{color:var(--ink);font-weight:600}
 
 /* ---------- Writing ---------- */
@@ -385,13 +385,12 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
     <p class="role">Geospatial Data Scientist&ensp;/&ensp;Engineering Geologist</p>
     <p class="tagline">Deep learning for the ground beneath us — geospatial AI grounded in real geology.</p>
     <p class="positioning">
-      I build earth-science machine learning systems — semantic segmentation of rock outcrops, GIS flood-risk models,
-      satellite time-series analysis — and I verify the ground truth myself, logging rock core and supervising site
-      investigation on Hong Kong's major rail, tunnel and housing projects.
+      I'm an Assistant Geologist at Arup with five years on Hong Kong's major rail, tunnel and housing projects,
+      and a geospatial data scientist with an MSc (Distinction) from PolyU, where my deep-learning research raised
+      rock outcrop mapping accuracy from 17% to 86%. I build machine learning that understands real geology.
     </p>
     <div class="cta-row">
       <a class="btn btn-primary" href="#projects">View projects</a>
-      <a class="btn btn-ghost" href="assets/KennethLi_CV.pdf" download>Download CV</a><!-- TODO: add CV at assets/KennethLi_CV.pdf -->
       <a class="btn btn-ghost" href="#contact">Contact</a>
     </div>
     <div class="hero-coords" aria-hidden="true">
@@ -504,6 +503,7 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
           <li><strong>Remote sensing:</strong> VHR aerial imagery, Planet, Sentinel-5P, MODIS, GSMaP; spectral indices (NDVI, SAVI, BAI)</li>
           <li><strong>Google Earth Engine:</strong> Planetary-scale time-series for hazards and air quality</li>
           <li><strong>Cartography &amp; spatial big data:</strong> District-level analytics, urban mobility, rooftop solar potential</li>
+          <li><strong>Mobile development:</strong> Android (Kotlin/Gradle) app shipped end-to-end</li>
         </ul>
       </div>
       <div class="skill-col reveal">
@@ -514,7 +514,6 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
           <li><strong>Transfer learning:</strong> Fine-tuning ResNet50V2, InceptionV3, VGG19; layer freezing, hyperparameter search</li>
           <li><strong>Python DL stack:</strong> TensorFlow/Keras and PyTorch data pipelines; LabelMe annotation workflows</li>
           <li><strong>Data engineering for EO:</strong> Tiling, augmentation, normalisation, dataset design &amp; leakage control</li>
-          <li><strong>Mobile development:</strong> Android (Kotlin/Gradle) app shipped end-to-end</li>
         </ul>
       </div>
     </div>
@@ -580,7 +579,7 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
 <section id="about" aria-labelledby="about-title" style="background:var(--bg-raised);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
   <div class="wrap">
     <p class="kicker">About</p>
-    <h2 class="section-title" id="about-title">Why ground truth matters</h2>
+    <h2 class="section-title" id="about-title">Why earth observation matters</h2>
     <div class="about-grid">
       <figure class="portrait reveal">
         <img src="assets/img/profile.jpg" alt="Kenneth Li at Tunnel View, Yosemite Valley, with El Capitan and Half Dome in the background" width="900" height="1200" loading="lazy">

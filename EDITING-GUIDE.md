@@ -60,9 +60,14 @@ All colors are variables at the top of the `<style>` block — `--accent` is the
 Search for `waikin1028@gmail.com`, `github.com/waikinli98`, or `linkedin.com` — each appears in
 the visible page and once in the JSON-LD block near the top (used by search engines).
 
-## 8. Add your CV
+## 8. Bring back the "Download CV" button (currently removed)
 
-Save it as `assets/KennethLi_CV.pdf` — the hero's "Download CV" button already points there.
+Save your CV as `assets/KennethLi_CV.pdf`, then add this line back inside the hero's
+`<div class="cta-row">` (between the "View projects" and "Contact" buttons) in `index.html`:
+
+```html
+<a class="btn btn-ghost" href="assets/KennethLi_CV.pdf" download>Download CV</a>
+```
 
 ---
 
