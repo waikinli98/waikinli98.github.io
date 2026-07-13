@@ -269,6 +269,7 @@ dialog.case h3{font-size:clamp(1.35rem,3vw,1.75rem);margin:6px 0 4px}
 figure.fig{margin:0;border:1px solid var(--line-strong);border-radius:10px;overflow:hidden;background:var(--surface)}
 figure.fig img{display:block;width:100%;height:auto}
 figure.fig figcaption{font-size:.8rem;color:var(--ink-3);padding:10px 14px;border-top:1px solid var(--line);line-height:1.5}
+.figs.photos img{aspect-ratio:4/3;object-fit:cover}
 
 /* ---------- Skills ---------- */
 .grid-skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
@@ -335,6 +336,7 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
         <li><a href="#projects">Projects</a></li>
         <li class="hide-m"><a href="#skills">Skills</a></li>
         <li class="hide-m"><a href="#writing">Research</a></li>
+        <li class="hide-m"><a href="#society">Community</a></li>
         <li class="hide-m"><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
         <li>
@@ -487,11 +489,11 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
         <h3><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h18L14 5l-4 8-2.5-4Z"/></svg>Geoscience</h3>
         <p class="lead">Trained engineering geologist with live site-investigation experience.</p>
         <ul class="skill-list">
-          <li><strong>Engineering geology:</strong> risk assessment for rail and tunnel infrastructure</li>
-          <li><strong>Site investigation supervision:</strong> drillhole relocation, termination criteria, HDC trajectory checking</li>
-          <li><strong>Core &amp; rockhead logging:</strong> rock mass rating (RMR), weathering grades, lab test scheduling (UCS, point load)</li>
-          <li><strong>Slope &amp; rockfall hazards:</strong> natural terrain studies, boulder inventories, aerial photograph interpretation</li>
-          <li><strong>Site HSE:</strong> statutory health, safety &amp; environmental compliance on live construction sites</li>
+          <li><strong>Engineering geology:</strong> Risk assessment for rail and tunnel infrastructure</li>
+          <li><strong>Site investigation supervision:</strong> Drillhole relocation, termination criteria, HDC trajectory checking</li>
+          <li><strong>Core &amp; rockhead logging:</strong> Rock mass rating (RMR), weathering grades, lab test scheduling (UCS, point load)</li>
+          <li><strong>Slope &amp; rockfall hazards:</strong> Natural terrain studies, boulder inventories, aerial photograph interpretation</li>
+          <li><strong>Site HSE:</strong> Statutory health, safety &amp; environmental compliance on live construction sites</li>
         </ul>
       </div>
       <div class="skill-col reveal">
@@ -500,8 +502,8 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
         <ul class="skill-list">
           <li><strong>GIS analysis:</strong> ArcGIS &amp; QGIS; hydrological modelling, IDW interpolation, multi-criteria assessment, 3D GIS</li>
           <li><strong>Remote sensing:</strong> VHR aerial imagery, Planet, Sentinel-5P, MODIS, GSMaP; spectral indices (NDVI, SAVI, BAI)</li>
-          <li><strong>Google Earth Engine:</strong> planetary-scale time-series for hazards and air quality</li>
-          <li><strong>Cartography &amp; spatial big data:</strong> district-level analytics, urban mobility, rooftop solar potential</li>
+          <li><strong>Google Earth Engine:</strong> Planetary-scale time-series for hazards and air quality</li>
+          <li><strong>Cartography &amp; spatial big data:</strong> District-level analytics, urban mobility, rooftop solar potential</li>
         </ul>
       </div>
       <div class="skill-col reveal">
@@ -509,9 +511,9 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
         <p class="lead">Deep learning applied to pixels of the physical world.</p>
         <ul class="skill-list">
           <li><strong>Semantic segmentation:</strong> U-Net, DeepLabV3+, CNN encoders on remote-sensing imagery</li>
-          <li><strong>Transfer learning:</strong> fine-tuning ResNet50V2, InceptionV3, VGG19; layer freezing, hyperparameter search</li>
+          <li><strong>Transfer learning:</strong> Fine-tuning ResNet50V2, InceptionV3, VGG19; layer freezing, hyperparameter search</li>
           <li><strong>Python DL stack:</strong> TensorFlow/Keras and PyTorch data pipelines; LabelMe annotation workflows</li>
-          <li><strong>Data engineering for EO:</strong> tiling, augmentation, normalisation, dataset design &amp; leakage control</li>
+          <li><strong>Data engineering for EO:</strong> Tiling, augmentation, normalisation, dataset design &amp; leakage control</li>
           <li><strong>Mobile development:</strong> Android (Kotlin/Gradle) app shipped end-to-end</li>
         </ul>
       </div>
@@ -530,11 +532,43 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
         <h3>Further Enhancement in Rock Outcrop Recognition in Hong Kong with Deep Learning Approach Using Very High-Resolution Aerial Imagery</h3>
         <p>Supervised by Sr Prof. Charles Man Sing Wong and Dr Coco Yin Tung Kwok. Extends Kwok et al. (2018) with modern transfer-learning backbones on a 0.15 m territory-wide orthophoto mosaic. MSc awarded with Distinction.</p>
       </div>
+      <div class="pub reveal">
+        <span class="tag">Wikipedia article</span>
+        <h3>Geological Structure Measurement by LiDAR</h3>
+        <p>Authored the Wikipedia reference article on measuring geological structures — bedding, joints and discontinuities — from LiDAR point clouds. <a href="https://en.wikipedia.org/wiki/Geological_structure_measurement_by_LiDAR">Read on Wikipedia →</a></p>
+      </div>
       <div class="pub placeholder reveal">
         <span class="tag">In preparation</span>
         <h3>Publications &amp; writing</h3>
         <p>Journal and conference submissions from the dissertation work are planned. Technical write-ups on geospatial ML workflows will appear here.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GEOLOGICAL SOCIETY ================= -->
+<section id="society" aria-labelledby="society-title">
+  <div class="wrap">
+    <p class="kicker">Community &amp; leadership</p>
+    <h2 class="section-title" id="society-title">Geological Society of London — Hong Kong Regional Group</h2>
+    <p class="section-intro">
+      Chairperson of the Young Fellows Group from 2024 to 2026, organising the events that connect young geologists
+      with the industry's professionals: Young Fellow talks, field trips, the Young Geologist Award competition, a
+      core-logging workshop and the annual dinner.
+    </p>
+    <div class="figs three photos">
+      <figure class="fig reveal">
+        <img src="assets/img/gsl-talk-2026.jpg" alt="Kenneth Li presenting his rock outcrop deep learning dissertation on stage at a Geological Society Young Fellow Talk" width="1400" height="1050" loading="lazy">
+        <figcaption>Presenting the rock-outcrop deep learning work at a Young Fellow Talk, July 2026.</figcaption>
+      </figure>
+      <figure class="fig reveal">
+        <img src="assets/img/gsl-hungshekmun-drone-2025.jpg" alt="Drone view of field trip participants exploring the red sedimentary rock coastline at Hung Shek Mun, with the group's boat moored below" width="900" height="1600" loading="lazy">
+        <figcaption>Field trip on the Hung Shek Mun red beds, June 2025.</figcaption>
+      </figure>
+      <figure class="fig reveal">
+        <img src="assets/img/gsl-hungshekmun-group-2025.jpg" alt="Group photo of around forty field trip participants with the Geological Society banner beneath a red rock cliff at Hung Shek Mun" width="1400" height="788" loading="lazy">
+        <figcaption>Young Fellows and members at Hung Shek Mun, June 2025.</figcaption>
+      </figure>
     </div>
   </div>
 </section>
@@ -624,9 +658,9 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
     <div class="case-section">
       <h4>Data</h4>
       <ul>
-        <li><strong>Imagery:</strong> territory-wide very-high-resolution aerial orthophoto mosaic (0.15 m, 2016–2020), cross-checked against 1963 aerial photography where vegetation now hides boulders.</li>
+        <li><strong>Imagery:</strong> Territory-wide very-high-resolution aerial orthophoto mosaic (0.15 m, 2016–2020), cross-checked against 1963 aerial photography where vegetation now hides boulders.</li>
         <li><strong>Labels:</strong> 4,240 hand-labelled samples (2,112 bedrock, 2,128 boulder) on 256×256 px tiles across Lamma Island, Lantau, Tuen Mun and Po Toi Island, annotated in LabelMe with GEO boulder-inventory maps as reference.</li>
-        <li><strong>Field verification:</strong> site inspections at Shek Pai Wan (Lamma Island) and Hung Shek Mun (NE New Territories) to ground-truth the labels, including finding a &gt;2 m boulder fully hidden by tree canopy in the imagery.</li>
+        <li><strong>Field verification:</strong> Site inspections at Shek Pai Wan (Lamma Island) and Hung Shek Mun (NE New Territories) to ground-truth the labels, including finding a &gt;2 m boulder fully hidden by tree canopy in the imagery.</li>
       </ul>
       <div class="figs two">
         <figure class="fig">
@@ -870,10 +904,10 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
     <div class="case-section">
       <h4>Data &amp; method</h4>
       <ul>
-        <li><strong>Terrain:</strong> territory-wide 5 m LiDAR-derived Digital Terrain Model (Lands Department).</li>
+        <li><strong>Terrain:</strong> Territory-wide 5 m LiDAR-derived Digital Terrain Model (Lands Department).</li>
         <li><strong>Land use:</strong> Planning Department "Land Utilization in Hong Kong" 10 m raster (2023), ranked by water-holding capacity.</li>
         <li><strong>Rainfall:</strong> 14 HKO automatic weather stations for three contrasting typhoons (Hato 2017, Mangkhut 2018, Yagi 2024), interpolated with IDW.</li>
-        <li><strong>Hydrology workflow (ArcGIS):</strong> sink filling → D8 flow direction → flow accumulation → runoff thresholding → stream linking and Strahler ordering → watershed delineation → inundation analysis overlaid on land use, benchmarked against Drainage Services Department flooding blackspots.</li>
+        <li><strong>Hydrology workflow (ArcGIS):</strong> Sink filling → D8 flow direction → flow accumulation → runoff thresholding → stream linking and Strahler ordering → watershed delineation → inundation analysis overlaid on land use, benchmarked against Drainage Services Department flooding blackspots.</li>
       </ul>
       <div class="chips">
         <span class="chip">ArcGIS hydrology</span><span class="chip">5 m LiDAR DTM</span><span class="chip">IDW interpolation</span>
@@ -934,9 +968,9 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
     <div class="case-section">
       <h4>Data &amp; method</h4>
       <ul>
-        <li><strong>Potential mapping:</strong> territory-wide building footprints filtered by rooftop suitability criteria, with per-district electricity production estimates by building category.</li>
-        <li><strong>Existing installations:</strong> a pre-trained machine-learning model applied to satellite imagery to detect rooftops that already have solar panels across all 18 districts.</li>
-        <li><strong>Economics:</strong> economic potential estimated from generation under the feed-in tariff.</li>
+        <li><strong>Potential mapping:</strong> Territory-wide building footprints filtered by rooftop suitability criteria, with per-district electricity production estimates by building category.</li>
+        <li><strong>Existing installations:</strong> A pre-trained machine-learning model applied to satellite imagery to detect rooftops that already have solar panels across all 18 districts.</li>
+        <li><strong>Economics:</strong> Generation value estimated under the feed-in tariff scheme.</li>
       </ul>
       <div class="chips">
         <span class="chip">GIS spatial analysis</span><span class="chip">Building footprints</span>
@@ -992,9 +1026,9 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
     <div class="case-section">
       <h4>What it does</h4>
       <ul>
-        <li><strong>Route planning:</strong> origin/destination search with distance, time and turn-by-turn directions on an interactive map.</li>
-        <li><strong>Nearby services:</strong> locate bike rental and repair shops around you.</li>
-        <li><strong>News &amp; community:</strong> a cycling news feed and a board for sharing routes, gear and posts.</li>
+        <li><strong>Route planning:</strong> Origin/destination search with distance, time and turn-by-turn directions on an interactive map.</li>
+        <li><strong>Nearby services:</strong> Locate bike rental and repair shops around you.</li>
+        <li><strong>News &amp; community:</strong> A cycling news feed and a board for sharing routes, gear and posts.</li>
       </ul>
       <div class="chips">
         <span class="chip">Android</span><span class="chip">Kotlin / Gradle</span><span class="chip">Google Maps APIs</span><span class="chip">Working APK</span>
@@ -1046,8 +1080,8 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
     <div class="case-section">
       <h4>Data &amp; method</h4>
       <ul>
-        <li><strong>Chicago bike-share:</strong> a single-day snapshot of ~20,000 trips across 535 stations and 3,800+ bikes, with departure and arrival mapping, trip-duration distributions and station-level demand.</li>
-        <li><strong>New York taxis:</strong> yellow-taxi trips aggregated over Manhattan taxi zones to map departure intensity across the street grid.</li>
+        <li><strong>Chicago bike-share:</strong> A single-day snapshot of ~20,000 trips across 535 stations and 3,800+ bikes, with departure and arrival mapping, trip-duration distributions and station-level demand.</li>
+        <li><strong>New York taxis:</strong> Yellow-taxi trips aggregated over Manhattan taxi zones to map departure intensity across the street grid.</li>
       </ul>
       <div class="chips">
         <span class="chip">Trip-record processing</span><span class="chip">Spatial aggregation</span>
@@ -1098,8 +1132,8 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:
       <h4>Topics covered</h4>
       <ul>
         <li><strong>Data models:</strong> 2D vector/raster → 2.5D height fields (TIN, raster surfaces, DEMs) → true 3D voxels, meshes and CityGML, and what each enables, from slope and viewshed analysis to subsurface geological modelling and BIM integration.</li>
-        <li><strong>Capture technologies:</strong> airborne, terrestrial and mobile LiDAR versus UAV photogrammetry, comparing accuracy, range, cost and processing trade-offs.</li>
-        <li><strong>Trends:</strong> drone-mounted LiDAR, vehicle- and train-mounted real-time scanning, and the value of Hong Kong's open territory-wide LiDAR data (the same 0.15 m-class data underpinning my dissertation and the 5 m DTM used in the flood study).</li>
+        <li><strong>Capture technologies:</strong> Airborne, terrestrial and mobile LiDAR versus UAV photogrammetry, comparing accuracy, range, cost and processing trade-offs.</li>
+        <li><strong>Trends:</strong> Drone-mounted LiDAR, vehicle- and train-mounted real-time scanning, and the value of Hong Kong's open territory-wide LiDAR data (the same 0.15 m-class data underpinning my dissertation and the 5 m DTM used in the flood study).</li>
       </ul>
       <div class="chips">
         <span class="chip">TIN &amp; raster surfaces</span><span class="chip">Voxels / CityGML</span>
